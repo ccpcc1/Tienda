@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tienda", "Tienda\", "{72414600-386A-46BA-B230-F7F6473E9DCE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58039"
+		Debug.AspNetCompiler.PhysicalPath = "Tienda\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58039\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58039"
+		Release.AspNetCompiler.PhysicalPath = "Tienda\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58039\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58039"
+		SlnRelativePath = "Tienda\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tienda.broker", "tienda.broker\tienda.broker.csproj", "{16C7BE07-85CE-41A6-BB08-83CD9AEC05D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tienda.controladora", "tienda.controller\tienda.controladora.csproj", "{0F63DA02-20BA-4EA9-9C69-4C9FE129E3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tienda.entidades", "tienda.entidades\tienda.entidades.csproj", "{540BDC30-4AD8-43AA-BF2D-D364ACAFFABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tienda.broquer.nosql", "tienda.broquer.nosql\tienda.broquer.nosql.csproj", "{55EE09FD-4157-4DF9-8560-0F617FC7936F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72414600-386A-46BA-B230-F7F6473E9DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72414600-386A-46BA-B230-F7F6473E9DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72414600-386A-46BA-B230-F7F6473E9DCE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{72414600-386A-46BA-B230-F7F6473E9DCE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{16C7BE07-85CE-41A6-BB08-83CD9AEC05D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C7BE07-85CE-41A6-BB08-83CD9AEC05D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C7BE07-85CE-41A6-BB08-83CD9AEC05D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C7BE07-85CE-41A6-BB08-83CD9AEC05D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F63DA02-20BA-4EA9-9C69-4C9FE129E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F63DA02-20BA-4EA9-9C69-4C9FE129E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F63DA02-20BA-4EA9-9C69-4C9FE129E3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F63DA02-20BA-4EA9-9C69-4C9FE129E3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540BDC30-4AD8-43AA-BF2D-D364ACAFFABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540BDC30-4AD8-43AA-BF2D-D364ACAFFABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540BDC30-4AD8-43AA-BF2D-D364ACAFFABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540BDC30-4AD8-43AA-BF2D-D364ACAFFABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EE09FD-4157-4DF9-8560-0F617FC7936F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EE09FD-4157-4DF9-8560-0F617FC7936F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EE09FD-4157-4DF9-8560-0F617FC7936F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EE09FD-4157-4DF9-8560-0F617FC7936F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33956C16-3060-4E03-AA42-984E09E75A23}
+	EndGlobalSection
+EndGlobal
