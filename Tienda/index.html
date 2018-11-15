@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tienda</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/carusel.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <div id="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Tienda</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Carrito.html">Mi Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ListaFavoritos.html">Mis Favoritos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="facturas.html">Facturas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="DetalleFactura.html">Detalle Facturas</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <br />
+        <div class="buscar">
+            <!--<div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Filtrar por</a>
+          <a class="dropdown-item" href="#">Categoria</a>
+          <a class="dropdown-item" href="#">>Nombre</a>
+
+        </div>
+      </div>
+    </div>-->
+            <input />
+            <select id="consulta" name="consulta">
+                <option value="dafault">Filtrar por</option>
+                <option value="categoria">Categoria</option>
+                <option value="nombre">Nombre</option>
+
+            </select>
+
+        </div>
+        <br />
+        <div class="row" id="tienda">
+
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 .col-12 card  espaciado  offset-md-1" style="width: 18rem;">
+                <img class="card-img-top rounded" src="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre producto</h5>
+                    <p class='card - text'>
+                        $ 15.500
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary borde " id="es">Ver mas</button>
+                        <button type="button" class="btn btn-primary borde" id="es">Agregar al carrito</button>
+                        <button type="button" class="btn btn-primary borde " id="es">Agregar Favoritos</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 .col-12 card  espaciado  offset-md-1" style="width: 18rem;">
+                <img class="card-img-top rounded" src="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre producto</h5>
+                    <p class='card - text'>
+                        $ 15.500
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary borde " id="es">Ver mas</button>
+                        <button type="button" class="btn btn-primary borde" id="es">Agregar al carrito</button>
+                        <button type="button" class="btn btn-primary borde " id="es">Agregar Favoritos</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 .col-12 card  espaciado  offset-md-1" style="width: 18rem;">
+                <img class="card-img-top rounded" src="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre producto</h5>
+                    <p class='card - text'>
+                        $ 15.500
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary borde " id="es">Ver mas</button>
+                        <button type="button" class="btn btn-primary borde" id="es">Agregar al carrito</button>
+                        <button type="button" class="btn btn-primary borde " id="es">Agregar Favoritos</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //para agregar los n-items por medio de la consulta
+            $("#tienda").append(" \
+                < div class= 'col-lg-3 col-md-4 col-sm-6 .col-12 card' style = 'width: 18rem;' >\
+                <img class='card - img - top' src=" + url +" alt='Card image cap'>\
+                    <div class='card-body'>\
+                        <h5 class='card-title'>"+ NombreProducto +"</h5>\
+                        <p class='card - text'>" + precio +"</p>\
+                        <button type='button'>Ver mas</button> \
+                        <button type='button'>Agregar al carrito</button> \
+                        <button type='button'>Agregar Favoritos</button> \
+                    </div> \
+                         ");
+        
+            //obtener el valor del select
+            // $("select[name=consulta]").change(function(){
+            //$('select[name=consulta]').val();
+
+            //  });
+        });
+
+    </script>
+</body>
+</html>
